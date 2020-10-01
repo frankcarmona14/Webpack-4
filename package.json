@@ -4,7 +4,10 @@
   "description": "esto sera divertido",
   "main": "index.js",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack --entry ./index.js --output ./bundle.js --mode development",
+    "build:local": "webpack --mode production",
+    "build:external": "webpack --config ./external/webpack.config.js",
+    "build:external:prod": "webpack --config ./external/webpack.config.js --mode production"
   },
   "keywords": [
     "webpack-4"
