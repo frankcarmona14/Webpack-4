@@ -1,0 +1,18 @@
+{
+  "name": "webpack-4",
+  "version": "1.0.0",
+  "description": "esto sera divertido",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack-4"
+  ],
+  "author": "Frank Carmona",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "4.32.2",
+    "webpack-cli": "3.3.2"
+  }
+}
