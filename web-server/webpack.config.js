@@ -13,8 +13,11 @@ module.exports = {
   },
   devServer: {
     hot: true,
+<<<<<<< HEAD
     open: true,
     port: 9000,
+=======
+>>>>>>> f7b1eb446adf57abfb99208f905ef0cfc633b53d
   },
   mode: "development",
   module: {
