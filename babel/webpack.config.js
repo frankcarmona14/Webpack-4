@@ -20,18 +20,20 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.js$/,
+        use: "babel-loader",
+        exclude: /node_modules/,
+      },
+      {
         test: /\.css$/,
-        use: [
-          "style-loader",
-          "css-loader",
-        ],
+        use: ["style-loader", "css-loader"],
       },
     ],
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new HtmlWebpackPlugin({
-      title: "webpack-dev-server",
+      title: "js moderno",
     }),
   ],
 };
